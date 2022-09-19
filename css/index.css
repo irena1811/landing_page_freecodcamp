@@ -1,3 +1,7 @@
+.body__page {
+  background-image: ;
+}
+
 @media (max-width: 650px) {
   nav {
     margin-top: 10px;
@@ -10,17 +14,21 @@
   }
 
   #nav-bar {
-    display: flex;
     justify-content: space-between;
-    flex: 1;  
+    flex: 1;
   }
 
   #header {
-  position: fixed;
-}
-  
+    position: fixed;
+  }
+
+  #header-img {
+    width: 200;
+    height: auto;
+  }
+
   nav li {
-  padding-bottom: 5px;
+    padding-bottom: 5px;
   }
 }
 
